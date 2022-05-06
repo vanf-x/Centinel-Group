@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        >
+        <title>Centinel Group</title>
+    </head>
+    <body class="">
+        <!-- <input type="checkbox" id="btn-menu">
+            <label for="btn-menu">
+                <i class="fas fa-pizza-slice"></i>
+            </label> -->
+        <header class="header d-flex justify-content-around align-items-center" style="border-bottom: 8px solid #343A40;">
+            <a href="index.html">
+                <img src="./Assets/logo-transparente.png" alt="logo" style="width: 100px; min-width: 100px;">
+            </a>
+            <h1>Centinel Group</h1>
+            <nav>
+                <a href="#seccion-1">Inicio</a>
+                <a href="#seccion-2">Nosotros</a>
+                <a href="#seccion-3">Servicios</a>
+                <!-- <a href="#seccion-4">Postulate</a> -->
+                <a href="#seccion-5">Contacto</a>
+            </nav>
+        </header>
+        <!-- MAIN -->
+        <section id="seccion-1" class="slide d-flex flex-column justify-content-center text-center align-items-center">
+            <h2 style="font-size: 4vw;" class="pl-5 pr-5">La seguridad de lo que más te importa, en las mejores manos</h2>
+        </section>
+        <!-- NOSOTROS -->
+        <section id="seccion-2">
+            <div class="slide d-flex flex-column flex-md-row justify-content-around align-items-center">
+<!-- INFO -->
+                <div class="w-sm-50 p-5 texto">
+                    <h3 class="text-center font-weight-bold pb-3">Sobre Nosotros</h3>
+                    <p class="text-justify">
+                        Somos una empresa joven en el rubro, pero con los conocimientos necesarios para brindarles el mejor servicio, en la más variada gama de objetivos.
+                        Contamos con personal idóneo, altamente calificado para cubrir cualquier tipo de situaciones:
+                    </p>
+                    <p class="text-justify">
+                        - Prevención de delitos
+                        <br>
+                        - Vigilancia de predios, consorcios y fábricas
+                        <br>
+                        - Custodia personal
+                        <br>
+                    </p>
+                    <p class="text-justify">
+                        Trabajamos las 24hs del día, los 365 días del año, con un plantel de supervisores calificados, cada uno para prestar el mejor servicio, atender las sugerencias y cumplir con las necesidades que el cliente solicite, de forma profesional, cordial y eficiente.
+                        Además, contamos con móviles propios y la comunicación constante con nuestro personal y su correspondiente capacitación.
+                    </p>
+                </div>
+<!-- LOGO -->
+                <div class="w-sm-50 p-sm-5 p-2 text-center">
+                    <img
+                        src="./Assets/logo-transparente.png"
+                        class=""
+                        alt="logo"
+                        style="min-width: 200px;"
+                    >
+                </div>
+            </div>
+        </section>
+        <!-- SERVICIOS -->
+        <section id="seccion-3" class="slide m-0 p-0 d-flex flex-column justify-content-center">
+            <h2 class="pb-5 pt-3 text-center">Nuestros servicios</h2>
+
+            <div class="accordion ">
+                <div class="bloq">
+                    <div class="d-flex desplegable justify-content-start align-items-center">
+                        <h3>Alarma y monitoreo</h3>
+                        <i class="material-icons ml-2">arrow_drop_down</i>
+                    </div>
+                    <div class="content">
+                        <div class="content-info">
+                            <img src="./Assets/servicios/alarma-y-monitoreo4.jpg" alt="alarma-monitoreo" class="img">
+                            <p>Contamos con una alta gama de productos y sistemas de última generación, sumado a ello un experimentado departamento de instaladores. Nos permite que nuestra base lo proteja las 24hs del día y los 365 días del año.</p>
+                        </div>
+                        <button type="btn" class="btn btn-outline-primary mt-4 font-weight-bold cotizar-btn" style="border-radius: 99px;">
+                            <a href="#seccion-5" class="text-white" style="text-decoration: none;">Cotizar</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="bloq">
+                    <div class="d-flex desplegable justify-content-start align-items-center">
+                        <h3>Custodias</h3>
+                        <i class="material-icons ml-2">arrow_drop_down</i>
+                    </div>
+                    <div class="content">
+                        <div class="content-info">
+                            <img src="./Assets/servicios/custodias3.png" alt="custodias" class="img">
+                            <p>Utilizando vehículos adecuados al objetivo a cumplir y personal altamente especializado en este tipo de prestaciones, realizamos custodias de valores y/o mercadería en transito de corta, media y larga distancia, de eventos y personalidades vip.</p>
+                        </div>
+                        <button type="btn" class="btn btn-outline-primary mt-4 font-weight-bold cotizar-btn" style="border-radius: 99px;">
+                            <a href="#seccion-5" class="text-white" style="text-decoration: none;">Cotizar</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="bloq">
+                    <div class="d-flex desplegable justify-content-start align-items-center">
+                        <h3>Seguridad física</h3>
+                        <i class="material-icons ml-2">arrow_drop_down</i>
+                    </div>
+                    <div class="content">
+                        <div class="content-info">
+                            <img src="./Assets/servicios/seguridad-fisica.jpg" alt="seguridad-fisica" class="img">
+                            <p>
+                                Mediante recursos humanos capacitados y seleccionados con la experiencia necesaria para cada objetivo a cubrir, además de la supervisión en forma alternada tanto de día como de noche cubrimos seguridad corporativa, industrias, empresas, laboratorios, centros de logística, barrios cerrados, consorcios y centros comerciales, entre otros.
+                            </p>
+                        </div>
+                        <button type="btn" class="btn btn-outline-primary mt-4 font-weight-bold cotizar-btn" style="border-radius: 99px;">
+                            <a href="#seccion-5" class="text-white" style="text-decoration: none;">Cotizar</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="bloq">
+                    <div class="d-flex desplegable justify-content-start align-items-center">
+                        <h3>Seguridad GPS</h3>
+                        <i class="material-icons ml-2">arrow_drop_down</i>
+                    </div>
+                    <div class="content">
+                        <div class="content-info">
+                            <img src="./Assets/servicios/Seguridad-GPS.jpg" alt="seguridad-gps" class="img">
+                            <p>Sin duda alguna día a día la electrónica se va incorporando permanentemente a las prestaciones de la seguridad, realizando servicios de rastreo satelital de flotas mediante la instalación de equipos GPS en las unidades y con reporte continuo a nuestra base de monitoreo, que nos permite realizar el seguimiento de las unidades.</p>
+                        </div>
+                        <button type="btn" class="btn btn-outline-primary mt-4 font-weight-bold cotizar-btn" style="border-radius: 99px;">
+                            <a href="#seccion-5" class="text-white" style="text-decoration: none;">Cotizar</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="bloq">
+                    <div class="d-flex desplegable justify-content-start align-items-center">
+                        <h3>Video-vigilancia</h3>
+                        <i class="material-icons ml-2">arrow_drop_down</i>
+                    </div>
+                    <div class="content">
+                        <div class="content-info">
+                            <img src="./Assets/servicios/video-vigilancia.JPG" alt="video-vigilancia" class="img">
+                            <p>Modernos equipos que cuentan con un sistema de grabación digital programable por zonas y horarios son de gran complemento con los guardias de seguridad asignados a un puesto determinado. En razón que le permite la visualización de otros sectores de la empresa sin necesidad de abandonar su puesto.</p>
+                        </div>
+                        <button type="btn" class="btn btn-outline-primary mt-4 font-weight-bold cotizar-btn" style="border-radius: 99px;">
+                            <a href="#seccion-5" class="text-white" style="text-decoration: none;">Cotizar</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!-- <section id="seccion-4" class="slide"></section> -->
+        <!-- CONTACTO -->
+        <section id="seccion-5" class="slide d-flex flex-column justify-content-between ">
+            <form class="pb-4 d-flex justify-content-center" style="width: 100%;">
+                <fieldset style="width: 800px; min-width: 350px; background-color: rgba(240, 248, 255, 0.315);" class=" p-sm-5 p-2">
+                    <h2 class="text-center mb-5">Contáctanos</h2>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input
+                            type="text"
+                            id="name"
+                            class="form-control"
+                            placeholder="John Dou"
+                        >
+                    </div>
+                    <div class="mb-3">
+                        <label for="company" class="form-label">Empresa</label>
+                        <input
+                            type="text"
+                            id="company"
+                            class="form-control"
+                            placeholder="Empresa S.A."
+                        >
+                    </div>
+                    <div class="mb-3">
+                        <label for="mail" class="form-label">Email</label>
+                        <input
+                            type="mail"
+                            id="mail"
+                            class="form-control"
+                            placeholder="correo@correo.com"
+                        >
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="textArea" class="form-label">Mensaje</label>
+                        <textarea
+                            class="form-control"
+                            id="textArea"
+                            rows="3"
+                            placeholder="Escribí tu mensaje"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2 w-100 font-weight-bold pt-3 pb-3" style="transition: all .5s;">Enviar</button>
+                </fieldset>
+            </form>
+
+        </section>
+        <!--  -->
+        <footer class="bg-dark text-white">
+            <div class="d-flex flex-column flex-sm-row justify-content-sm-around justify-content-center align-items-center h-100 pl-3 pr-3">
+                <div class="mt-2 text-center">
+                    <h2>Centinel Group S.R.L</h2>
+                </div>
+                <a href="#seccion-1">
+                    <img
+                        src="./Assets/logo-transparente.png"
+                        alt="logo"
+                        class="mt-2 mb-2"
+                        style="width: 175px; min-width: 175px;"
+                    >
+                </a>
+                <div class="d-flex flex-column justify-content-center ">
+                    <div class=" m-0 p-2" style="list-style: none;">
+                        <h4 class="text-bold  text-center">Contacto telefónico</h4>
+                        <p class="m-0 p-0 text-center">11-6454-6198</p>
+                        <p class="m-0 p-0 text-center">11-6299-1896</p>
+                    </div>
+                    <div class="d-flex justify-content-between text-center pb-3">
+                        <a href="#">
+                            <img
+                                class="mt-2 med"
+                                src="./Assets/insta222.svg"
+                                alt="Instagram"
+                                style="width: 100px;"
+                            >
+                        </a>
+                        <a href="https://www.facebook.com/centinel.groupsrl" target="_blank">
+                            <img
+                                class="mt-2 med"
+                                src="./Assets/face22.svg"
+                                alt="Facebook"
+                                style="width: 100px;"
+                            >
+                        </a>
+                        <a href="https://wa.me/+005491164546198?text=Hola!%20Estoy%20interesado%20en%20saber%20más%20sobre%20los%20servicios%20ofrecidos%20por%20Centinel%20Group" target="_blank" class="mt-2">
+                            <img
+                                class="med"
+                                src="./Assets/whatsapp2.svg"
+                                alt="Facebook"
+                                style="width: 100px;"
+                            >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--  -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/c69ba124c6.js" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

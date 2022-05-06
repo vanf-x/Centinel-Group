@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabajá con nosotros</title>
+        <meta name="description=" content="Conseguí trabajo en una empresa novedosa en materia de seguridad.">
+        <meta name="keywords" content="CENTINEL, SENTINEL, CENTINELA, SENTINELA, SEGURIDAD PRIVADA, SEGURIDAD, TRABAJO, TRABAJA, VIGILANCIA, VIGILADOR">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+        crossorigin="anonymous"
+    >
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="../CSS/normalize.css">
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <link rel="stylesheet" href="../CSS/trabaja.css">
+        <link rel="stylesheet" href="../CSS/mq.css">
+        <link rel="stylesheet" href="../CSS/mq-trabaja.css">
+    </head>
+    <body>
+        <header class="sticky-top">
+                <!-- HEADER BOOTSTRAP -->
+                <nav class="navbar navbar-expand-md bg-warning navbar-dark sticky-top bs">
+                    <!-- Brand -->
+                    <h1 class="navbar-brand source-font no-cur" ">CENTINEL GROUP <i class="material-icons icono">blur_on</i></h1>
+                    <!-- Toggler/collapsibe Button -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapsibleNavbar"
+                    >
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto ts genos-font">
+                            <li class="nav-item">
+                                <a class="nav-link link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="./empresa.html">Empresa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="./servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link selected link" href="./trabaja.html">Empleo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        <!-- MAIN -->
+        <main class="main">
+            <div class="main__top bs">
+                <h2 class="main__top--h2 kanit-font color-bisque ts">Trabaja con nosotros</h2>
+            </div>
+            <!-- MAIN FORM -->
+            <!-- FORM TOP -->
+            <form action="" class="form">
+                <div class="form__h3 form-font-h3 ts genos-font bs">
+                    <h3>
+                        Datos Personales
+                    </h3>
+                </div>
+                <div class="form__top inconsolata-font bs">
+                    <div class="form__top--dat form-font">
+                        <label class="label" for="name">Nombre:</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form__top--input"
+                            required
+                        >
+                    </div>
+                    <div class="form__top--dat form-font ">
+                        <label class="label" for="surname">Apellido:</label>
+                        <input
+                            type="text"
+                            name="surname"
+                            id="surname"
+                            class="form__top--input"
+                            required
+                        >
+                    </div>
+                    <div class="form__top--dat form-font">
+                        <label class="label" for="age">Edad:</label>
+                        <input
+                            type="number"
+                            name="age"
+                            id="age"
+                            class="form__top--input"
+                            required
+                        >
+                    </div>
+                    <div class="form__top--dat form-font">
+                        <label class="label" for="bdate">Fecha nac:</label>
+                        <input
+                            type="date"
+                            name="bdate"
+                            id="bdate"
+                            class="form__top--input"
+                            required
+                        >
+                    </div>
+                    <div class="form__top--dat form-font">
+                        <label class="label" for="sex">Sexo:</label>
+                        <select
+                            name="sex"
+                            id="sex"
+                            class="form__top--input"
+                            required
+                        >
+                            <option value="x">-</option>
+                            <option value="male">Masculino</option>
+                            <option value="">Femenino</option>
+                        </select>
+                    </div>
+                    <div class="form__top--dat form__top--cv form-font">
+                        <label class="label" for="fije">Adjunte CV</label>
+                        <input
+                            type="file"
+                            id="file"
+                            name="file"
+                            class="form__top--input"
+                            required
+                        >
+                    </div>
+                </div>
+                <!-- MID FORM -->
+                <div class="form__h3 form-font-h3 ts genos-font bs">
+                    <h3>
+                        Puesto al que se postula
+                    </h3>
+                </div>
+                <div class="form__mid kanit-font form-font bs">
+                    <div class="form__mid--cb">
+                        <label for="emp1" class="di">Supervisor</label>
+                        <input
+                            type="checkbox"
+                            class="di"
+                            value="emp1"
+                            id="emp1"
+                        >
+                    </div>
+                    <div class="form__mid--cb">
+                        <label for="emp2">Administrativo</label>
+                        <input type="checkbox" value="emp2" id="emp2">
+                    </div>
+                    <div class="form__mid--cb">
+                        <label for="emp3">Recursos humanos</label>
+                        <input type="checkbox" value="emp3" id="emp3">
+                    </div>
+                    <div class="form__mid--cb">
+                        <label for="emp4">Dto. Ventas</label>
+                        <input type="checkbox" value="emp4" id="emp4">
+                    </div>
+                    <div class="form__mid--cb">
+                        <label for="emp5">Empleado vigilancia</label>
+                        <input type="checkbox" value="emp5" id="emp5">
+                    </div>
+                    <div class="form__mid--cb">
+                        <label for="emp6">Empleado limpieza</label>
+                        <input type="checkbox" value="emp6" id="emp6">
+                    </div>
+                </div>
+                <!-- FORM BOTTOM -->
+                <div class="form__h3 form-font-h3 ts genos-font bs">
+                    <h3>Información adicional</h3>
+                </div>
+                <div class="form__bot kanit-font form-font bs">
+                    <div class="form__bot--in">
+                        <label for="aq2">Posee movilidad propia:</label>
+                        <select name="aq2" id="aq2" class="form__bot--input">
+                            <option value="x">-</option>
+                            <option value="yes">Sí</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="form__bot--in">
+                        <label for="aq3">Cómo llegó a nosotros:</label>
+                        <select name="aq3" id="aq3" class="form__bot--input">
+                            <option value="x">-</option>
+                            <option value="fb">Facebook</option>
+                            <option value="tw">Twitter</option>
+                            <option value="ig">Instagram</option>
+                            <option value="ot">Otros</option>
+                        </select>
+                    </div>
+                    <div class="form__bot--in">
+                        <label for="aq4">Disponibilidad horaria:</label>
+                        <select name="aq4" id="aq4" class="form__bot--input">
+                            <option value="x">-</option>
+                            <option value="day">Diurno</option>
+                            <option value="night">Nocturno</option>
+                            <option value="both">Ambos</option>
+                        </select>
+                    </div>
+                    <div class="form__bot--in">
+                        <label for="aq5">Remuneración pretendida:</label>
+                        <input
+                            type="number"
+                            name="aq5"
+                            id="aq5"
+                            class="form__bot--input"
+                        >
+                    </div>
+                </div>
+                <!-- SUBMIT BUTTON -->
+                <div class="form--sub">
+                    <input type="submit" class="button form-font kanit-font" value="Enviar">
+                </div>
+            </form>
+            <!-- MAIN BOTTOM -->
+            <h3 class="main__bottom--h3 text-cen genos-font bs title ts">
+                Para conocer nuestros servicios hacé click
+                <a class="color-petr2 none-dec" href="./servicios.html">acá</a>
+            </h3>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footer inconsolata-font color-bisque bsu">
+            <section class="footer__logo">
+                <img class="logo-tr" src="../Assets/logo-transparente.png" alt="Logo empresa">
+            </section>
+            <section class="footer__address">
+                <ul class="p-0 none-ls">
+                    <p></p>
+                    <li class="li__tit ">
+                        Oficina
+                    </li>
+                    <li class="footer__address--li">Av. Calle 123</li>
+                    <li class="footer__address--li">C.A.B.A. (Arg)</li>
+                    <li class="footer__address--li">Tel: 4123-4567</li>
+                </ul>
+                <ul class="p-0 none-ls">
+                    <li class="li__tit">Ventas</li>
+                    <li class="footer__address--li">Tel: 4123-4567</li>
+                    <li class="footer__address--li">/ 11-1234-5678</li>
+                    <li class="footer__address--li">info@mail.com.ar</li>
+                </ul>
+            </section>
+            <section class="footer__media">
+                <h4 class="footer__media--title">Nuestras redes</h4>
+                <ul class="footer__media__ul">
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="../Assets/face.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="../Assets/twitter.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="../Assets/insta.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="../Assets/lenkedin.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer__media--up ">
+                <a href="trabaja.html#top">
+                    <i class="material-icons">keyboard_arrow_up</i>
+                </a>
+            </section>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    </body>
+</html>

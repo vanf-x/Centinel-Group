@@ -1,0 +1,180 @@
+/* <link rel="stylesheet" href="./CSS/styles.css"> */
+
+
+/* <!-- HEADER_LOGO -->
+<section class="header__left">
+    <div class="header__left__logo">
+        <a href="index.html">
+            <img src="./Assets/spartan-helmet.svg" alt="Logo Centinel Group" class="header__logo">
+        </a>
+    </div>
+    <div class="header__left__cent">
+        <h1 class="h1 anton-font ls-4r uppercase margin-zero no-cur">
+            Centinel Group
+        </h1>
+    </div>
+</section>
+<!-- HEADER_NAV -->
+<section class="header__right uppercase genos-font ts">
+    <nav class="nav">
+        <ul class="nav__ul none-ls">
+            <li class="nav__ul__li  selected">
+                <a class="none-dec
+    color-black" href="index.html">Home</a>
+            </li>
+            <li class="nav__ul__li ">
+                <a class="none-dec color-black" href="../ProyectoFinal/HTML/empresa.html">Empresa</a>
+            </li>
+            <li class="nav__ul__li ">
+                <a class="none-dec color-black" href="../ProyectoFinal/HTML/servicios.html">Servicios</a>
+            </li>
+            <li class="nav__ul__li ">
+                <a class="none-dec color-black" href="../ProyectoFinal/HTML/trabaja.html">Empleo</a>
+            </li>
+            <li class="nav__ul__li ">
+                <a class="none-dec color-black" href="../ProyectoFinal/HTML/contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</section>
+<!-- BURGER MENU -->
+<div class="header__left--bur">
+    <img class="bur__menu" src="./Assets/bur3.svg" alt="burger-menu">
+</div> */
+
+/* 
+        <!-- HEADER -->
+        <header class="header-border">
+ 
+
+    
+            
+        </header>
+        <!-- MAIN -->
+        <main class="main">
+            <!-- MAIN SLIDE MENU -->
+            <!-- MAIN TOP -->
+            <section class="background-pic img-1">
+                <div class="main__left">
+                    <h2 class="main__left--h2 kanit-font color-bisque ts no-cur">
+                        La seguridad de tu
+                        empresa en nuestras manos
+                    </h2>
+                </div>
+                <div class="main__right text-cen kanit-font bs">
+                    <div class="main__right--p">
+                        <p class="no-cur">
+                            Cotizá tu servicio llamando al
+                            <span class="color-petr">
+                                <strong>4123-4765</strong>
+                            </span>
+                            o, si
+                            preferís, te llamamos.
+                        </p>
+                    </div>
+                    <div class="main__right--na">
+                        <input type="text" placeholder="Nombre de la empresa *" required>
+                    </div>
+                    <div class="main__right--tel">
+                        <input type="number" placeholder="Tel con código de área *" required>
+                    </div>
+                    <div class="main__right--mail">
+                        <input type="email" placeholder="Email *" required>
+                    </div>
+                    <div class="main__right--but">
+                        <input
+                            class="po-cur"
+                            type="submit"
+                            value="Cotizá gratis"
+                            style="font-weight: bold"
+                        >
+                    </div>
+                </div>
+            </section>
+            <!-- MAIN BOTTOM -->
+            <section class="main__bottom">
+                <div class="main__bottom__tit text-cen">
+                    <h3 class="genos-font">¿Qué tenés que proteger?</h3>
+                </div>
+                <div class="main__bottom__pics">
+                    <div class="main__bottom__fot f1 bs">
+                        <div class="main__bottom__fot--text">
+                            <h4 class="text-cen fz-20 color-gold inconsolata-font">Tu fábrica</h4>
+                            <p class="text-ju w-90 text-cen center fz-15 inconsolata-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, tempora?</p>
+                        </div>
+                    </div>
+                    <div class="main__bottom__fot f2 bs">
+                        <div class="main__bottom__fot--text">
+                            <h4 class="text-cen fz-20 color-gold inconsolata-font">Tu empresa</h4>
+                            <p class="text-ju w-90 text-cen center fz-15 inconsolata-font">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, impedit!</p>
+                        </div>
+                    </div>
+                    <div class="main__bottom__fot f3 bs">
+                        <div class="main__bottom__fot--text">
+                            <h4 class="text-cen fz-20 color-gold inconsolata-font">Tu edificio</h4>
+                            <p class="text-ju w-90 text-cen center fz-15 inconsolata-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, repudiandae!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- MAIN BOTTOM BOTTOM -->
+            <h3 class="main__bottom--h3 text-cen genos-font bs">
+                Para conocer nuestros servicios hacé click
+                <a class="color-petr2 none-dec" href="./HTML/servicios.html">acá</a>
+            </h3>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footer inconsolata-font color-bisque bsu">
+            <section class="footer__logo">
+                <img class="logo-tr" src="./Assets/logo-transparente.png" alt="">
+            </section>
+            <section class="footer__address">
+                <ul class="p-0">
+                    <p></p>
+                    <li class="li__tit">
+                        Oficina
+                    </li>
+                    <li class="footer__address--li">Av. Calle 123</li>
+                    <li class="footer__address--li">C.A.B.A. (Arg)</li>
+                    <li class="footer__address--li">Tel: 4123-4567</li>
+                </ul>
+                <ul class="p-0">
+                    <li class="li__tit">Ventas</li>
+                    <li class="footer__address--li">Tel: 4123-4567 /</li>
+                    <li class="footer__address--li">11-1234-5678</li>
+                    <li class="footer__address--li">info@mail.com.ar</li>
+                </ul>
+            </section>
+            <section class="footer__media">
+                <h4 class="footer__media--title">Nuestras redes</h4>
+                <ul class="footer__media__ul">
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="./Assets/face.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="./Assets/twitter.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="./Assets/insta.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="none-ls">
+                        <a class="" href="#">
+                            <img class="med" src="./Assets/lenkedin.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer__media--up ">
+                <a href="index.html#top">
+                    <img class="arrow" src="./Assets/up.svg" alt="arrow-up">
+                </a>
+            </section>
+        </footer>
+
+*/

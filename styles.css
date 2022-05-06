@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: default;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body, h1, h2{
+    margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+  }
+img{
+    max-width: 50%;
+    height: auto;
+}
+[id]{
+    scroll-margin-top: 7.5ex;
+}
+.header{
+    position: sticky;
+    top: 0;
+    padding: 0.25rem;
+    background-color: black;
+    color: antiquewhite;
+}
+.header nav a{
+    margin: 0 1rem;
+    color: antiquewhite;
+    transition: all .3s;
+}
+
+.header nav a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+.slide{
+    width: 100%;
+    min-height: 100vh;
+    color: #d9e8f0;
+    padding-top: 2rem ;
+}
+
+
+#seccion-1{
+    background-image: url(/Assets/main_top.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#seccion-2{
+    background-image: url(./Assets/fondoazul4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#seccion-3{
+    background-image: url(./Assets/fondoazul.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#seccion-5{
+    background-image: url(/Assets/contacto_fondo.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* SOBRE NOSOTROS */
+
+.texto{
+    font-size: 18px;
+background-color: rgba(0, 0, 0, 0.678);
+}
+.texto h3{
+    font-size: 25px;
+}
+
+/* SERVICIOS */
+
+.accordion{
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+}
+.accordion .bloq{
+    height: auto;
+    padding-bottom: 5px;
+}
+.accordion .bloq .desplegable{
+    background: linear-gradient(90deg, rgba(69,182,213,1) 0%, rgba(134,95,199,1) 100%);
+    padding: .5rem;
+    height: auto;
+    border-radius: 20px;
+}
+.accordion .bloq .desplegable i{
+    cursor: default;
+}
+.accordion .desplegable h3{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+
+}
+.accordion .content{
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.accordion .bloq.active .content {
+    height: auto;
+    padding: 2rem;
+}
+.accordion .bloq.active .content .content-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accordion .bloq.active .content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 9rem;
+}
+.accordion .bloq.active .content p{
+    padding: 10px;
+    font-size: 18px;
+    width: 75%;
+}
+.cotizar-btn{
+    width: 25%;
+}
+.cotizar-btn:hover{
+    color: white!important;
+}
+.cotizar:hover{
+color: white;
+text-decoration: none;
+}
+
+/* FOOTER */
+.med{
+    transition: all .3s ease;
+}
+.med:hover { 
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 767px){
+    #seccion-1 h2{
+        font-size: 30px!important;
+    }
+}
+@media only screen and (max-width: 486px){
+    .cotizar-btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .accordion .bloq.active .content{
+        padding: 0;
+    }
+    .accordion .bloq.active .content .content-info{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        text-align: justify;
+    }
+    .accordion .bloq.active .content img{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+}

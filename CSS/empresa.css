@@ -1,0 +1,43 @@
+/* IMAGEN */
+.main__top {
+  height: 90vh;
+  background-color: blue;
+  background-image: url(../Assets/img-2.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__top--h2 {
+  font-size: 10rem;
+}
+.form__h3 {
+  margin-top: 5rem;
+  width: 100%;
+  line-height: 0;
+  background-color: rgba(245, 167, 0, 0.794);
+}
+.form-font-h3 h3 {
+  text-align: center;
+  font-size: 3rem;
+}
+.pha {
+  font-size: 2rem;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.image {
+  width: 90%;
+  margin: 0 auto;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 5rem;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
