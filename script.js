@@ -50,23 +50,22 @@ const $textArea = document.querySelector('#textArea');
 $form.addEventListener('submit', (e)=>{
     e.preventDefault();
     if($name.value.trim() == '' || $mail.value.trim() == '' || $textArea.value.trim() == ''){
-        mensajeError('Aún quedan campos por completar');
+        mensaje('Aún quedan campos por completar');
     }
 })
 
-function mensajeError(mensaje){
+function mensaje(mje){
     const error = document.querySelector('.error');
     if(!error){
         const div = document.createElement('div');
         div.classList.add('error');
         div.innerHTML = `
-            <p>${mensaje}</p>
+            <p>${mje}</p>
         `;
         $form.firstElementChild.append(div);
         setTimeout(()=>{
             div.remove();
         }, 1500)
     }
-
 
 }
