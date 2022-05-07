@@ -240,3 +240,15 @@ header .menu {
 .error p{
     margin: 0;
 }
+
+.success{
+  background-color: green;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.success p{
+  margin: 0;
+  padding: 0;
+}
