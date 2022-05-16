@@ -101,9 +101,6 @@ header .menu {
   padding-bottom: 5px;
 }
 .accordion .bloq .desplegable {
-  /* background: linear-gradient(90deg, rgba(36,120,129,1) 0%, rgba(48,170,221,1) 100%);
-   */
-   /* background: linear-gradient(90deg, rgba(36,120,129,1) 0%, rgba(0,255,198,1) 67%); */
    background: linear-gradient(90deg, rgba(36,120,129,1) 0%, rgba(148,148,148,1) 100%);
 
   background-color: #247881;
@@ -161,6 +158,7 @@ header .menu {
 }
 
 /* FOOTER */
+#oculto{opacity: 0;}
 .med {
   transition: all 0.3s ease;
 }

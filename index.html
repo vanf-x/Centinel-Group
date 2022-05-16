@@ -41,7 +41,7 @@
         <!-- NOSOTROS -->
         <section id="seccion-2">
             <div class="slide d-flex flex-column flex-md-row justify-content-around align-items-center nosotros">
-<!-- INFO -->
+            <!-- INFO -->
                 <div class="w-sm-50 p-5 texto">
                     <h3 class="text-center font-weight-bold pb-3">Sobre Nosotros</h3>
                     <p class="text-justify">
@@ -61,7 +61,7 @@
                         Además, contamos con móviles propios y la comunicación constante con nuestro personal y su correspondiente capacitación.
                     </p>
                 </div>
-<!-- LOGO -->
+            <!-- LOGO -->
                 <div class="w-sm-50 p-sm-5 p-2 text-center">
                     <img
                         src="./Assets/logo-transparente.png"
@@ -159,53 +159,65 @@
         <!--  -->
         <!-- <section id="seccion-4" class="slide"></section> -->
         <!-- CONTACTO -->
-        <section id="seccion-5" class="slide d-flex flex-column justify-content-between ">
-                <form action="https://formsubmit.co/your@email.com" method="POST" class="pb-4 d-flex justify-content-center" style="width: 100%;" id="form">
+        <section id="seccion-5" class="slide d-flex flex-column justify-content-center ">
+                <form class="pb-4 d-flex justify-content-center" style="width: 100%;" id="form">
                 <fieldset style="width: 800px; min-width: 350px; background-color: rgba(240, 248, 255, 0.315);" class=" p-sm-5 p-2">
                     <h2 class="text-center mb-5">Contáctanos</h2>
                     <div class="mb-3">
-                        <label for="name" class="form-label">Nombre *</label>
+                        <label for="nombre" class="form-label">Nombre</label>
                         <input
                             type="text"
-                            id="name"
+                            id="nombre"
                             class="form-control"
                             placeholder="John Dou"
+                            name="nombre"
+                            required
                         >
                     </div>
                     <div class="mb-3">
-                        <label for="company" class="form-label">Empresa</label>
+                        <label for="asunto" class="form-label">Asunto</label>
                         <input
                             type="text"
-                            id="company"
+                            id="asunto"
                             class="form-control"
-                            placeholder="Empresa S.A."
+                            placeholder="Consulta"
+                            name="asunto"
+                            required
+
                         >
                     </div>
                     <div class="mb-3">
-                        <label for="mail" class="form-label">Email *</label>
+                        <label for="mail" class="form-label">Email</label>
                         <input
                             type="mail"
                             id="mail"
                             class="form-control"
                             placeholder="correo@correo.com"
+                            name="mail"
+                            required
                         >
                     </div>
                     <div class="mb-3">
                         <div class="form-check"></div>
                     </div>
                     <div class="mb-3">
-                        <label for="textArea" class="form-label">Mensaje *</label>
+                        <label for="textArea" class="form-label">Mensaje</label>
                         <textarea
                             class="form-control"
                             id="textArea"
                             rows="3"
                             placeholder="Escribí tu mensaje"
+                            name="mensaje"
+                            required
+
                         ></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary mt-2 w-100 font-weight-bold pt-3 pb-3" style="transition: all .5s;">Enviar</button>
-                </fieldset>
-            </form>
+                    <a href="mailto:stuffimport47@gmail.com" id="oculto">mail</a>
 
+                </fieldset>
+
+            </form>
         </section>
         <!--  -->
         <footer class="bg-dark text-white">

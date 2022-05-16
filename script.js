@@ -52,35 +52,39 @@ const correo = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
 
 let validacion = false;
 
-$form.addEventListener("submit", (e) => {
-  let nom = false;
-  let cor = false;
+// $form.addEventListener("submit",  {
+$form.addEventListener("submit", handleSubmit);  
 
-  e.preventDefault();
-  if (
-    $name.value.trim() == "" ||
-    $mail.value.trim() == "" ||
-    $textArea.value.trim() == ""
-  ) {
-    mensaje("Aún quedan campos por completar", 1);
-    return;
-  }
 
-  nom = nombre.test($name.value.trim());
-  cor = correo.test($mail.value.trim());
 
-  if (!nom) {
-    mensaje("Formato de nombre incorecto", 1);
-    return;
-  }
-  if (!cor) {
-    mensaje("Formato de correo incorecto", 1);
-    return;
-  }
+  // let nom = false;
+  // let cor = false;
 
-  mensaje("Correo enviado con éxito", 2);
-  formReset();
-});
+  
+  // if (
+  //   $name.value.trim() == "" ||
+  //   $mail.value.trim() == "" ||
+  //   $textArea.value.trim() == ""
+  // ) {
+  //   mensaje("Aún quedan campos por completar", 1);
+  //   return;
+  // }
+
+  // nom = nombre.test($name.value.trim());
+  // cor = correo.test($mail.value.trim());
+
+  // if (!nom) {
+  //   mensaje("Formato de nombre incorecto", 1);
+  //   return;
+  // }
+  // if (!cor) {
+  //   mensaje("Formato de correo incorecto", 1);
+  //   return;
+  // }
+
+  // mensaje("Correo enviado con éxito", 2);
+  // formReset();
+// });
 
 function mensaje(mje, valor) {
   if (valor == 1) {
@@ -118,4 +122,12 @@ function formReset() {
   $mail.value = "";
   $textArea.value = "";
   $company.value = "";
+}
+
+function handleSubmit(e){
+  e.preventDefault();
+  const form = new FormData(this);
+  const $buttonMailto = document.querySelector('#oculto');
+  $buttonMailto.setAttribute('href', `mailto:stuffimport47@gmail.com?subject=${form.get('asunto')} - ${form.get('nombre')}&body=Mensaje:${form.get('mensaje')}`)
+  $buttonMailto.click();
 }
